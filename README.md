@@ -6,7 +6,7 @@ A machine learning-powered web application for predicting depression risk in stu
 ## 📁 File Structure
 
 ```bash
-STUMIND/
+stumind-depression-predictor/
 ├── all_machine_learning_models/
 │   ├── ANN.ipynb
 │   ├── Decision_Tree.ipynb
