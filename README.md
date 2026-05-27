@@ -5,24 +5,36 @@ A machine learning-powered web application for predicting depression risk in stu
 
 ## 📁 File Structure
 
-```
+```bash
 STUMIND/
+├── all_machine_learning_models/
+│   ├── ANN.ipynb
+│   ├── Decision_Tree.ipynb
+│   ├── KNN.ipynb
+│   ├── Logistic_Regression.ipynb
+│   ├── Random_forest.ipynb
+│   └── SVM.ipynb
+│
+├── data/
+│   └── student_depression_dataset.csv
+│
+├── doc/
+│   └── Final Comparison of Best models of the Algorithms.pdf
+│
+├── models/
+│   ├── depression_model.pkl
+│   ├── label_encoders.pkl
+│   ├── pca_transformer.pkl
+│   ├── scaler.pkl
+│   └── selected_features.pkl
+│
 ├── templates/
-│   └── index.html                   # Frontend UI for depression risk assessment
-├── venv/                            # Python virtual environment
-├── app.py                           # Flask web application
-├── student_depression_dataset.csv   # Raw dataset
-├── rfe_pca_df.csv                   # Cleaned, feature-selected & PCA-transformed dataset
-├── depression_model.pkl             # Serialized KNN model
-├── label_encoders.pkl               # Serialized LabelEncoder objects per column
-├── scaler.pkl                       # Serialized MinMaxScaler
-├── selected_features.pkl            # RFE-selected feature names list
-├── pca_transformer.pkl              # Serialized PCA transformer
-├── Depression_Prediction.ipynb      # Full ML pipeline notebook
+│   └── index.html
+│
+├── app.py
+├── requirements.txt
 └── README.md
 ```
-
----
 
 ## 📊 Dataset
 
